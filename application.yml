@@ -10,4 +10,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://eurekahost}:9010/eureka/
+      defaultZone: http://eurekahost:9010/eureka/
