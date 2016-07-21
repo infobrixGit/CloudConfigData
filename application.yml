@@ -1,11 +1,7 @@
 ---
-server:
-  port:9010
 eureka:
-  instance:
-    hostname: eureka-primary
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://eureka-primary:9010/eureka/
+      defaultZone: http://localhost:9010/eureka/
