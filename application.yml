@@ -1,6 +1,4 @@
 ---
-spring:
-  profiles: default
 server:
   port:9010
 eureka:
